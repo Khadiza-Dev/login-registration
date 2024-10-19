@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    background-color: #ededed;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+.container{
+    background-color: white;
+border-radius: 10px;
+/* height: 300px; */
+}
+body h1{
+    margin:0px;
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    /* width: 200px; */
+    padding:15px;
+    /* margin-top: 25px; */
+    /* border-radius: 10px; */
+}
+.form-title{
+    background-image: linear-gradient(hotpink,cyan);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+   
+}
+.info{
+    display:flex;
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+input[type="checkbox"] {
+    margin: 0 4px 0 0;
+}
+form input[type="text"],form input[type="email"],form input[type="password"], 
+form input[type="submit"]{
+    border-radius: 15px;
+    padding: 8px 15px;
+    border: 1px solid gray
+}
+form input[type="submit"]{
+    background-image: linear-gradient(hotpink,cyan);
+    border: none;
+    cursor: pointer;
+}
+form input[type="submit"]:hover{
+    background-image: linear-gradient(cyan,hotpink);
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px lightgray;
+}
+form p{
+    margin:0;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+form p a,form .info a{
+    text-decoration: none;
+    color: red;
+   } 
+
+
+
