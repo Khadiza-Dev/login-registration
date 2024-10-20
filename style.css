@@ -25,11 +25,13 @@ body h1{
     /* border-radius: 10px; */
 }
 .form-title{
-    background-image: linear-gradient(hotpink,cyan);
+    color: white;
+    background-image: linear-gradient(to right top, #49caf7, #4ebbff, #7ea7ff, #b58cfa, #e369d6);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
 .login-form {
+  
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -56,15 +58,16 @@ form input[type="submit"]{
     border: 1px solid gray
 }
 form input[type="submit"]{
-    background-image: linear-gradient(hotpink,cyan);
+    background-image: linear-gradient(to right top, #49caf7, #4ebbff, #7ea7ff, #b58cfa, #e369d6);
     border: none;
     cursor: pointer;
+    color: white;
 }
 form input[type="submit"]:hover{
-    background-image: linear-gradient(cyan,hotpink);
+    background-image: linear-gradient(to right top, #f749e8, #b584ff, #68a6ff, #24bcff, #49caf7);
     border: none;
     cursor: pointer;
-    box-shadow: 2px 2px lightgray;
+    box-shadow:2px 2px lightgray;
 }
 form p{
     margin:0;
@@ -74,7 +77,7 @@ form p{
 }
 form p a,form .info a{
     text-decoration: none;
-    color: red;
+    color:#4379F2;
    } 
 
 
