@@ -55,7 +55,7 @@ form input[type="text"],form input[type="email"],form input[type="password"],
 form input[type="submit"]{
     border-radius: 15px;
     padding: 8px 15px;
-    border: 1px solid gray
+    border: 1px solid gray;
 }
 form input[type="submit"]{
     background-image: linear-gradient(to right top, #49caf7, #4ebbff, #7ea7ff, #b58cfa, #e369d6);
