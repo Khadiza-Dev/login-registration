@@ -26,7 +26,7 @@ body h1{
 }
 .form-title{
     color: white;
-    background-image: linear-gradient(to right top, #49caf7, #4ebbff, #7ea7ff, #b58cfa, #e369d6);
+    background-image: linear-gradient(to right top, #f21ecd, #e614d4, #d90cdc, #ca0ce3, #b812eb);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -58,13 +58,13 @@ form input[type="submit"]{
     border: 1px solid gray;
 }
 form input[type="submit"]{
-    background-image: linear-gradient(to right top, #49caf7, #4ebbff, #7ea7ff, #b58cfa, #e369d6);
+    background-image: linear-gradient(to right top, #f21ecd, #e614d4, #d90cdc, #ca0ce3, #b812eb);
     border: none;
     cursor: pointer;
     color: white;
 }
 form input[type="submit"]:hover{
-    background-image: linear-gradient(to right top, #f749e8, #b584ff, #68a6ff, #24bcff, #49caf7);
+    background-image: linear-gradient(to right top, #b812eb, #c70de6, #d40be2, #e00ddd, #eb12d9);
     border: none;
     cursor: pointer;
     box-shadow:2px 2px lightgray;
@@ -77,7 +77,7 @@ form p{
 }
 form p a,form .info a{
     text-decoration: none;
-    color:#4379F2;
+    color:#7C00FE;
    } 
 
 
